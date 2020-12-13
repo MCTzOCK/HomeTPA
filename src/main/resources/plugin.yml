@@ -1,0 +1,19 @@
+name: HomeTpa
+version: ${project.version}
+main: de.mctzock.hometpa.HomeTpa
+api-version: 1.16
+authors: [MCTzOCK]
+website: http://mctzock.de
+commands:
+  home:
+    permission: system.command.home
+  homes:
+    permission: system.command.homes
+  sethome:
+    permission: system.command.sethome
+  delhome:
+    permission: system.command.delhome
+  tpa:
+    permission: system.command.tpa
+  tpaccept:
+    permission: system.command.tpaccept
